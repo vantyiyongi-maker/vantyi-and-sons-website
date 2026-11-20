@@ -1,70 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Us - Vantyi &amp; Sons Funeral Parlour, Gqeberha.">
-  <title>Contact Us | Vantyi &amp; Sons Funeral Parlour</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Vantyi & Sons Funeral Parlour, Gqeberha.">
+<title>Contact Us | Vantyi & Sons Funeral Parlour</title><link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="Vantyi and Sons home">
-      <span class="brand-name">Vantyi &amp; Sons</span>
-      <span class="brand-tag">Funeral Parlour</span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu ☰</button>
-    <nav class="nav-wrap" id="primary-nav" aria-label="Main navigation">
-      <ul class="nav-list"><li><a href="index.html">Home</a></li>
-<li><a href="about.html">About Us</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="policies.html">Funeral Policies</a></li>
-<li><a href="testimonials.html">Testimonials</a></li>
-<li><a href="contact.html" aria-current="page">Contact Us</a></li>
-<li><a href="enquiry.html">Enquiry</a></li></ul>
-    </nav>
-  </div>
-</header>
-
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html" aria-label="Vantyi and Sons home"><span class="brand-name">Vantyi &amp; Sons</span><span class="brand-tag">Funeral Parlour</span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu ☰</button>
+<nav class="nav-wrap" id="primary-nav" aria-label="Main navigation"><ul class="nav-list">
+<li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="policies.html">Funeral Policies</a></li><li><a href="testimonials.html">Testimonials</a></li><li><a href="contact.html" aria-current="page">Contact Us</a></li><li><a href="enquiry.html">Enquiry</a></li>
+</ul></nav></div></header>
 <main id="main">
-  <section class="page-hero"><div class="container"><p class="eyebrow">We are ready to assist</p><h1>Contact Us</h1><p>For information about services, funeral policies or arrangements, please get in touch.</p></div></section>
-  <section class="section"><div class="container two-column">
-    <div><h2>Contact Vantyi &amp; Sons</h2><p class="lead">Vantyi &amp; Sons Funeral Parlour is based in Gqeberha (formerly Port Elizabeth), in the Eastern Cape.</p><p>Use the enquiry page to send a message about the assistance you need. Please include a suitable way for the parlour to contact you.</p><div class="callout"><p><strong>Contact details:</strong> A telephone number, email address, street address and office hours were not included in the supplied proposal. These details should be confirmed with the business and added before the website is published.</p></div></div>
-    <aside class="info-panel"><h2>Send us an enquiry</h2><p>Tell us what information or assistance you need.</p><a class="btn" href="enquiry.html">Open enquiry form</a></aside>
-  </div></section>
-  <section class="section section-soft"><div class="container"><h2>Our location</h2><p>Gqeberha, Eastern Cape, South Africa.</p><p class="small-note">A precise street address and map pin were not supplied, so a map has not been embedded. Add the verified business address before publishing.</p></div></section>
+<section class="page-hero"><div class="container"><p class="eyebrow">We are ready to assist</p><h1>Contact Us</h1><p>Send Vantyi &amp; Sons a general message. We will use your contact details to respond.</p></div></section>
+<section class="section"><div class="container two-column">
+<div><h2>Contact Vantyi &amp; Sons</h2><p class="lead">Vantyi &amp; Sons Funeral Parlour is based in Gqeberha (formerly Port Elizabeth), in the Eastern Cape.</p>
+<p>Complete the contact form with your details and message. For questions about a particular service, use our dedicated enquiry form.</p>
+<div class="callout"><p><strong>Email recipient:</strong> Messages are addressed to vantyi.yongi@gmail.com.</p></div>
+<p class="small-note">Please do not include banking details, identity numbers or other sensitive information.</p></div>
+<div class="form"><h2>General contact form</h2><p class="form-note">Fields marked with * are required.</p>
+<form id="contact-form" action="https://formsubmit.co/ajax/vantyi.yongi@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Website contact message - Vantyi & Sons Funeral Parlour">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+<div class="form-grid">
+<div class="field"><label for="contact-name">Full name *</label><input id="contact-name" name="Full name" type="text" autocomplete="name" required minlength="2"></div>
+<div class="field"><label for="contact-email">Email address *</label><input id="contact-email" name="Email address" type="email" autocomplete="email" required></div>
+<div class="field"><label for="contact-phone">Contact number</label><input id="contact-phone" name="Contact number" type="tel" autocomplete="tel"></div>
+<div class="field"><label for="message-type">Type of message *</label><select id="message-type" name="Type of message" required><option value="">Please select</option><option>General question</option><option>Feedback</option><option>Complaint</option><option>Appointment request</option><option>Volunteer or sponsorship</option><option>Other</option></select></div>
+<div class="field field-full"><label for="contact-message">Your message *</label><textarea id="contact-message" name="Message" required minlength="10" placeholder="Type your full message here..."></textarea></div>
+</div>
+<button class="btn btn-navy" type="submit">Send message</button>
+<p class="small-note">Your message will be sent by email after the email service has been activated.</p>
+<div class="status-message" id="contact-status" role="status" aria-live="polite"></div>
+</form></div></div></section>
+<section class="section section-soft"><div class="container"><h2>Our location</h2><p>Gqeberha, Eastern Cape, South Africa.</p><p class="small-note">A precise street address and map pin were not supplied.</p><p>For service-specific questions, visit our <a href="enquiry.html">enquiry page</a>.</p></div></section>
 </main>
-
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <h2>Vantyi &amp; Sons Funeral Parlour</h2>
-        <p>Compassion, dignity and care since 1978.</p>
-        <p>Supporting families in Gqeberha and the Eastern Cape with respect and professionalism.</p>
-      </div>
-      <div>
-        <h3>Explore</h3>
-        <ul class="footer-links">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="policies.html">Funeral Policies</a></li>
-          <li><a href="enquiry.html">Make an Enquiry</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Get in touch</h3>
-        <p>For service information, policy enquiries or assistance, please use the enquiry page.</p>
-        <a href="contact.html">Contact information and location</a>
-      </div>
-    </div>
-    <div class="copyright">© <span class="year">2026</span> Vantyi &amp; Sons Funeral Parlour. All rights reserved.</div>
-  </div>
-</footer>
-<script src="js/script.js"></script>
-</body>
-</html>
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+<div><h2>Vantyi &amp; Sons Funeral Parlour</h2><p>Compassion, dignity and care since 1978.</p><p>Supporting families in Gqeberha and the Eastern Cape with respect and professionalism.</p></div>
+<div><h3>Explore</h3><ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="services.html">Our Services</a></li><li><a href="policies.html">Funeral Policies</a></li><li><a href="enquiry.html">Make an Enquiry</a></li></ul></div>
+<div><h3>Get in touch</h3><p>For general messages, use the contact form on this page.</p><a href="enquiry.html">Make a service enquiry</a></div>
+</div><div class="copyright">© <span class="year">2026</span> Vantyi &amp; Sons Funeral Parlour. All rights reserved.</div></div></footer>
+<script src="js/script.js"></script></body></html>
